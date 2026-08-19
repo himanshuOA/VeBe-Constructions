@@ -1,0 +1,62 @@
+VEBE INTERIORS — REACT + VITE (Vercel ready)
+=============================================
+
+Tumhari asli 125 files (103 photos + 22 videos) site me daal di gayi hain,
+Residential aur Commercial category ke hisaab se (89 residential, 36 commercial).
+
+
+LOCAL PE CHALANA / EDIT
+------------------------
+   npm install
+   npm run dev       -> browser me localhost khulega
+   npm run build     -> dist/ banega (ye Vercel pe jaata hai)
+
+
+VERCEL PE DEPLOY (2 tareeke)
+---------------------------
+TAREEKA 1 — GitHub se (best):
+  1. Is folder ko apne GitHub repo me push karo
+     (node_modules push mat karna — .gitignore already laga hai)
+  2. Vercel me "Import Project" -> repo choose karo
+  3. Framework: Vite (auto-detect ho jata hai)
+     Build command: npm run build
+     Output directory: dist
+  4. Deploy dabao. Ho gaya.
+
+TAREEKA 2 — Vercel CLI:
+  1. npm i -g vercel
+  2. is folder me: vercel
+  3. sawaalon ka jawab do -> live URL mil jayega
+
+  (vercel.json already daala hai jo routing sambhaal lega)
+
+
+IMAGES / VIDEOS
+---------------
+- Sab kuch public/assets/projects/ me hai (item-001.jpg ... item-125.mp4)
+- Category src/data.js me define hai (tumhare tags se auto-bani)
+- Kisi photo ki category badalni ho:
+    src/data.js kholo, us file ki line me "residential" <-> "commercial" badal do
+- Nayi photo add karni ho:
+    1. file public/assets/projects/ me daalo
+    2. src/data.js ke gallery array me ek line add karo:
+       { file: P("meri-photo.jpg"), cat: "residential", type: "image" },
+
+
+PAGES
+-----
+  /            Home     - 3D hero, stats, featured slider
+  /studio      Studio   - story, process
+  /services    Services - 6 services + steps
+  /projects    Projects - slider + FULL GALLERY (All/Residential/Commercial + lightbox)
+  /contact     Contact  - enquiry form
+
+
+NOTES
+-----
+- Videos gallery me chalti hain (hover pe preview, click pe lightbox me controls).
+- Contact form abhi demo hai (send nahi karta). Formspree/EmailJS se jodna ho
+  to bata dena.
+- Total media ~73MB. Vercel free plan pe theek chalega. Agar bahut slow lage
+  to kuch bade videos hata sakte ho (public/assets/projects/ se file delete +
+  src/data.js se uski line hata do).
