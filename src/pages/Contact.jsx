@@ -49,7 +49,7 @@ export default function Contact() {
           <Reveal className="contact-info">
             <div><span>Studio</span><p>Office No. 17, Third Floor,<br/>Sun Twilight Metro Street,<br/>Greater Noida,<br />Uttar Pradesh, India</p></div>
             <div><span>Email</span><p><a href="mailto:vebeinteriors2k22@gmail.com">vebeinteriors2k22@gmail.com</a></p></div>
-            <div><span>Phone</span><p><a href="tel:+919999999999">+91 99999 99999</a></p></div>
+            <div><span>Phone</span><p><a href="tel:+919311217408">+91 93112 17408</a></p></div>
             <div><span>Hours</span><p>Mon – Sat · 10:00 to 19:00</p></div>
             <div><span>Work</span><p>Residential &amp; Commercial Interiors</p></div>
             <div className="visual-box" style={{ height: 220, marginTop: 10, backgroundImage: `url(${scenes.living})`, backgroundSize: 'cover', backgroundPosition: 'center', border: '1px solid var(--line)' }} />
