@@ -14,7 +14,7 @@ export default function Contact() {
       return
     }
     setNote({
-      text: `Thanks, ${form.name}! Your enquiry is ready — this demo form doesn't send yet, so email hello@vebeinteriors.com to reach us.`,
+      text: `Thanks, ${form.name}! Your enquiry is ready — this demo form doesn't send yet, so email vebeinteriors2k22@gmail.com to reach us.`,
       ok: true,
     })
   }
@@ -47,8 +47,8 @@ export default function Contact() {
           </Reveal>
 
           <Reveal className="contact-info">
-            <div><span>Studio</span><p>Greater Noida,<br />Uttar Pradesh, India</p></div>
-            <div><span>Email</span><p><a href="mailto:hello@vebeinteriors.com">hello@vebeinteriors.com</a></p></div>
+            <div><span>Studio</span><p>Office No. 17, Third Floor,<br/>Sun Twilight Metro Street,<br/>Greater Noida,<br />Uttar Pradesh, India</p></div>
+            <div><span>Email</span><p><a href="mailto:vebeinteriors2k22@gmail.com">vebeinteriors2k22@gmail.com</a></p></div>
             <div><span>Phone</span><p><a href="tel:+919999999999">+91 99999 99999</a></p></div>
             <div><span>Hours</span><p>Mon – Sat · 10:00 to 19:00</p></div>
             <div><span>Work</span><p>Residential &amp; Commercial Interiors</p></div>
