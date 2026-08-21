@@ -33,7 +33,7 @@ export default function Footer() {
           <h4>Contact</h4>
           <ul>
             <li><a href="mailto:vebeinteriors2k22@gmail.com">vebeinteriors2k22@gmail.com</a></li>
-            <li><a href="tel:+919311217408">+91 93112 17408</a></li>
+            <li><a href="mailto:info@vebeinteriors.com">info@vebeinteriors.com</a></li>
             <li><span>Residential &amp; Commercial</span></li>
           </ul>
         </div>

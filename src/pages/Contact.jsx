@@ -48,7 +48,7 @@ export default function Contact() {
 
           <Reveal className="contact-info">
             <div><span>Studio</span><p>Office No. 17, Third Floor,<br/>Sun Twilight Metro Street,<br/>Greater Noida,<br />Uttar Pradesh, India</p></div>
-            <div><span>Email</span><p><a href="mailto:vebeinteriors2k22@gmail.com">vebeinteriors2k22@gmail.com</a></p></div>
+            <div><span>Email</span><p><a href="mailto:info@vebeinteriors.com">info@vebeinteriors.com</a></p></div>
             <div><span>Phone</span><p><a href="tel:+919311217408">+91 93112 17408</a></p></div>
             <div><span>Hours</span><p>Mon – Sat · 10:00 to 19:00</p></div>
             <div><span>Work</span><p>Residential &amp; Commercial Interiors</p></div>
